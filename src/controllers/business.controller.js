@@ -1,3 +1,5 @@
+import { BusinessService } from "../service/business.service.js";
+
 export class BusinessController{
     static getAllBusiness = async(req,res)=>{
         try {
